@@ -1,5 +1,8 @@
+//algoritmo para descobrir quantas tentativas mínimas teremos para descobrir um número aleatorio entre 0 a X usando a lógica binária
+
 #include <stdio.h>
 #include <math.h>
+
 {
     float valor, novoValor;
     int i;
