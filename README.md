@@ -1,11 +1,11 @@
-//algoritmo para descobrir quantas tentativas mínimas teremos para descobrir um número aleatorio entre 0 a X usando a lógica binária
-
-#include <stdio.h>
-#include <math.h>
-
-{
-    float valor, novoValor;
-    int i;
+    //algoritmo para descobrir quantas tentativas mínimas teremos para descobrir um número aleatorio entre 0 a X usando a lógica binária
+    
+    #include <stdio.h>
+    #include <math.h>
+    
+    {
+        float valor, novoValor;
+        int i;
 
     printf("Escreva um valor x:");
     scanf("%f", &valor);
@@ -28,4 +28,4 @@
     printf("número de vezes até chegar no número desejado: %i\n", i);
     
     return 0;
-}
+    }
